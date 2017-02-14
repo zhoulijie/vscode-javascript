@@ -24,6 +24,19 @@ There you have either the option to show the already installed snippets or insta
 
 Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key.
 
+### JSON
+| Trigger  | Content |
+| -------: | ------- |
+| `jp→`    | `JSON.parse(obj)`|
+| `js→`    | `JSON.stringify(obj)`|
+
+
+### DOM
+| Trigger  | Content |
+| -------: | ------- |
+| `ae→`    | `document.addEventListener('event', (e}) => {}, false)`|
+| `re→`    | `document.removeEventListener('event', eventHandle, false)`|
+
 ### Import and export
 | Trigger  | Content |
 | -------: | ------- |

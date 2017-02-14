@@ -88,8 +88,28 @@
   },
   "namedFunction": {
     "prefix": "nfn",
-    "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
+    "body": "${1:const} ${2:name} = (${3:params}) => {\n\t${4}\n}",
     "description": "Creates a named function in ES6 syntax"
+  },
+  "addEventListener": {
+    "prefix": "ae",
+    "body": "${1:document}.addEventListener('${2:event}', (e}) => {\n\t${3}\n}, ${4:false})",
+    "description": "addEventListener"
+  },
+  "removeEventListener": {
+    "prefix": "re",
+    "body": "${1:document}.removeEventListener('${2:event}', ${3:eventHandle}, ${4:false})",
+    "description": "removeEventListener"
+  },
+  "JSONparse": {
+    "prefix": "jp",
+    "body": "JSON.parse(${1:obj});",
+    "description": "JSONparse"
+  },
+  "JSONstringify": {
+    "prefix": "js",
+    "body": "JSON.stringify(${1:obj});",
+    "description": "JSONstringify"
   },
   "destructingObject": {
     "prefix": "dob",
